@@ -1,0 +1,25 @@
+\name{getTau0}
+\alias{getTau0}
+\title{Extract tau_0 From MultiPAS Data}
+\usage{
+getTau0(x, period = 1800))
+}
+\description{
+Extracts tau_0 from a MultiPAS data frame for a cavity ringdown instrument.
+}
+
+\arguments{
+  \item{x}{
+    A vector of cavity ringdown data.
+  }
+  \item{period}{
+    The sample period (in seconds) including the background.
+  }
+}
+
+\value{
+  A vector of tau_0 values.
+}
+
+\examples{
+}

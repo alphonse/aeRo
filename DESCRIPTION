@@ -1,0 +1,17 @@
+Package: aeRo
+Type: Package
+Title: Tools for Atmospheric Aerosol Optics
+Version: 0.1
+Date: 2017-03-02
+Author: Al Fischer
+Maintainer: Al Fischer <alphonse.fisch@gmail.com>
+Description: Tools for importing and processing aerosol optical data, specifically designed for MultiPAS instruments.
+License: Proprietary
+LazyData: TRUE
+Imports:
+  dplyr,
+  magicaxis,
+  plotly,
+  zoo
+Encoding: UTF-8
+LazyData: true
