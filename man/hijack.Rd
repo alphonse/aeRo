@@ -29,5 +29,5 @@ matplot.hijack <- hijack(matplot, type = 'l', lty = 'solid', lwd = 2, xlab = 'Ti
 }
 
 \references{
-https://www.r-bloggers.com/hijacking-r-functions-changing-default-arguments/
+\link{https://www.r-bloggers.com/hijacking-r-functions-changing-default-arguments/}
 }

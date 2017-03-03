@@ -5,7 +5,7 @@
 averagePower.waves(x, cal = c(c(0.058, 0.035, 0.038, 0.039)), limits = c(300, 350), period = 1800)
 }
 \description{
-Extracts powers for a single wavelength in a MultiPAS data frame.  Used in \code{\link[optaero]{averagePower}}.
+Extracts powers for a single wavelength in a MultiPAS data frame.  Used in \code{\link[aeRo]{averagePower}}.
 }
 
 \arguments{

@@ -19,7 +19,7 @@ Extracts backgrounds for all wavelengths from a MultiPAS data frame.
     A vector of strings specifying names for the columns, generally of the convention 'pwrWavelength_mW'.
   }
   \item{...}{
-    Additional items to be passed to \code{\link[optaero]{averagePowers.waves}}.
+    Additional items to be passed to \code{\link[aeRo]{averagePowers.waves}}.
   }
 }
 

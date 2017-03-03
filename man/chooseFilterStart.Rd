@@ -16,7 +16,7 @@ chooseFilterStart(X, xlim = c(0, 3000), col = 2, period = 1800)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{X}{
-    A data frame imported with \code{\link[optaero]{importPAS}}.
+    A data frame imported with \code{\link[aeRo]{importPAS}}.
     }
   \item{xlim}{
     A numeric vector specifying the start and end points of the data region to be plotted.
