@@ -7,6 +7,6 @@ plotAbs <- function(x, y, ylim = c(0, ceiling(max(na.omit(y))/10)*10), margins =
   )
   axis.POSIXct(1, x, labels = T)
   axis.POSIXct(3, x, tck = 0.025, labels = F)
-  magaxis(c(2, 4), labels = c(T, F))
+  magicaxis::magaxis(c(2, 4), labels = c(T, F))
   box(lwd = 1.5)
 }
