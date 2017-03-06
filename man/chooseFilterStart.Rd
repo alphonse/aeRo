@@ -11,7 +11,7 @@
 }
 
 \usage{
-chooseFilterStart(X, xlim = c(0, 3000), col = 2, period = 1800)
+chooseFilterStart(X, xlim = c(0, 3000), col = 2, period = 1800, graph = TRUE, start = 1)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -26,6 +26,12 @@ chooseFilterStart(X, xlim = c(0, 3000), col = 2, period = 1800)
   }
   \item{period}{
     The length of the sample period, in second, including the background.
+  }
+  \item{graph}{
+    Whether or not to use the a graphical interface to select the start point.
+  }
+  \item{start}{
+    If \code{graph = FALSE}, the start point of the filter period.  Not used otherwise.
   }
 }
 
