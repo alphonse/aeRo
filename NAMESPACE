@@ -1,3 +1,2 @@
 exportPattern("^[[:alpha:]]+")
 #' @import dplyr
-library(dplyr)
