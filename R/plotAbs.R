@@ -3,7 +3,6 @@ plotAbs <- function(x, y, ylim = c(0, ceiling(max(na.omit(y))/10)*10), margins =
   matplot.hijack(
     x, y,
     axes = F,
-    ylim = ylim,
     ...
   )
   axis.POSIXct(1, x, labels = T)
