@@ -12,7 +12,7 @@
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
-importPAS <- function(path, no.cols = 17) {
+importPAS <- function(path, no.cols = 18) {
   read.delim(
     path, sep = '\t',
     colClasses = c('POSIXct', rep('numeric', (no.cols - 1)))

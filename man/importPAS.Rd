@@ -2,7 +2,7 @@
 \alias{importPAS}
 \title{Import MultiPAS Data}
 \usage{
-importPAS(path, no.cols = 17)
+importPAS(path, no.cols = 18)
 }
 \description{
 Imports a tab-separated data file generated with a MultiPAS instrument.
