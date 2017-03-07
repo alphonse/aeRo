@@ -8,7 +8,7 @@
 #' @method plot abs
 #' @export plot abs
 
-plot.abs <- function(x, y, type = 'l', ylim = NULL, xlab = 'time', xaxs = 'i', ylab = expression(paste(alpha[PAS-CRD], ' (M', m^-1, ')')), yaxs = 'i', col = c('purple', 'forestgreen', 'red', 'darksalmon', 'red'), lwd = 2, lty = c(rep('solid', 4), 'dashed'), axes = F, mar = c(5, 5, 2, 2), ...) {
+plot.abs <- function(x, y, type = 'l', ylim = NULL, xlab = 'Time', xaxs = 'i', ylab = expression(paste(alpha[PAS-CRD], ' (M', m^-1, ')')), yaxs = 'i', col = c('purple', 'forestgreen', 'red', 'darksalmon', 'red'), lwd = 2, lty = c(rep('solid', 4), 'dashed'), axes = F, mar = c(5, 5, 2, 2), ...) {
 
   par(mar = mar)
 
