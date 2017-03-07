@@ -4,14 +4,14 @@
 \alias{plot.abs}
 \title{Plotting function for an Absorption Object}
 \usage{
-\method{plot}{abs}(x, type = "l", ylim = NULL, xlab = "time",
+\method{plot}{abs}(x, y, type = "l", ylim = NULL, xlab = "time",
   xaxs = "i", ylab = expression(paste(alpha[PAS - CRD], " (M", m^-1, ")")),
   yaxs = "i", col = c("purple", "forestgreen", "red", "darksalmon", "red"),
   lwd = 2, lty = c(rep("solid", 4), "dashed"), axes = F, mar = c(5, 5,
   2, 2), ...)
 }
 \arguments{
-\item{x}{a list of class \code{abs} with the elements \code{x} and \code{y}}
+\item{x}{a list of class \code{abs} with the element \code{Time} and y variables.}
 
 \item{...}{Other options passed to plot().}
 }
