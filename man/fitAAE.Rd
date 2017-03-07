@@ -25,5 +25,5 @@ Computes the absorption Angstrom exponent (AAE) for a given data set.
 }
 
 \examples{
-apply(y[, 2:5], 1, fitAAE))
+apply(y[, 2:5], 1, fitAAE)
 }

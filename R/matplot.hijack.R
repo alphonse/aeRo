@@ -3,4 +3,4 @@ matplot.hijack <- hijack(matplot,
                 xlab = 'Time',
                 ylab = expression(paste(alpha[PAS-CRD], ' (M', m^-1, ')')),
                 col = c('purple', 'forestgreen', 'red', 'darksalmon', 'red')
-                )
+)
