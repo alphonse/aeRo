@@ -2,3 +2,4 @@ exportPattern("^[[:alpha:]]+")
 #' @import dplyr
   importFrom("graphics", "axis.POSIXct", "box", "par", "plot")
   importFrom("stats", "coef", "lm", "na.omit", "nls")
+  importFrom("dplyr")
