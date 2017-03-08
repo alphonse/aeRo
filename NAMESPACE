@@ -1,5 +1,5 @@
 exportPattern("^[[:alpha:]]+")
-#' @import dplyr
-  importFrom("graphics", "axis.POSIXct", "box", "par", "plot")
-  importFrom("stats", "coef", "lm", "na.omit", "nls")
-  importFrom("dplyr")
+importFrom("graphics", "axis.POSIXct", "box", "par", "plot", "lines")
+importFrom("stats", "coef", "lm", "na.omit", "nls", "setNames")
+importFrom("utils", "read.delim", "read.table", "write.table")
+importFrom("dplyr", "%>%")
