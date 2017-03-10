@@ -1,5 +1,5 @@
-fillToLength <- function(X, period = 1800) {
+fillToLength <- function(X, period = 1800, ncol = 4) {
   rep(X, each = period) %>%
-    matrix(ncol = 4) %>%
+    matrix(ncol = ncol) %>%
     as.data.frame()
 }

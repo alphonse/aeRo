@@ -44,7 +44,7 @@ A plot of the data and a subset dataframe aligned to the chosen start point.
 }
 
 \examples{
-pas <- importPAS('pas.txt') \%>\%
+pas <- importPAS('pas.txt') %>%
   setFilterStart()
 }
 
